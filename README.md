@@ -13,7 +13,8 @@ npm install --save react-nhomb-create-website-dulich
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
 import {ExampleComponent} from 'react-nhomb-create-website-dulich';
 import 'react-nhomb-create-website-dulich/dist/index.css';
