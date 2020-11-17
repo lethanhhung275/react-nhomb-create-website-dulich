@@ -15,14 +15,15 @@ npm install --save react-nhomb-create-website-dulich
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-nhomb-create-website-dulich'
-import 'react-nhomb-create-website-dulich/dist/index.css'
+import {ExampleComponent} from 'react-nhomb-create-website-dulich';
+import 'react-nhomb-create-website-dulich/dist/index.css';
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <ExampleComponent />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 ```
 
 ## License
