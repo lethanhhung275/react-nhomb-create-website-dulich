@@ -49,5 +49,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1",
+    "react-icons": "^3.11.0"
+  }
 }
